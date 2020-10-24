@@ -1,0 +1,27 @@
+{
+  "name": "node-module-template",
+  "version": "1.0.0",
+  "description": "node module template using webpack",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "prepublish": "yarn build",
+    "test": "jest"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "repository": "git@github.com:drMimic/node-module-template.git",
+  "author": "drMimic",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "babel-loader": "^8.1.0",
+    "jest": "^26.6.1",
+    "standard": "^15.0.0",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0"
+  }
+}
