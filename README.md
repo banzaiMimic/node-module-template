@@ -1,19 +1,20 @@
 # node-module-template
 node module template using webpack
 
-### building
+### build
 ```
 yarn
 yarn build
 ```
 
-### tests
+### test
 ```
 yarn test
 ```
 
 ### excluding dependencies
-add to `webpack.config.js externals`
+if dependencies are causing conflicts / duplications with child repos,
+add the conflicting dependencies to `webpack.config.js externals`
 ```
 externals: {
   fs: 'fs',
