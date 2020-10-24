@@ -12,7 +12,7 @@ yarn build
 yarn test
 ```
 
-### excluding dependencies
+### exclude dependencies
 if dependencies are causing conflicts / duplications with child repos,
 add the conflicting dependencies to `webpack.config.js externals`
 ```
