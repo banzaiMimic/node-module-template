@@ -1,5 +1,5 @@
 {
-  "name": "node-module-template",
+  "name": "@drMimic/node-module-template",
   "version": "1.0.0",
   "description": "node module template using webpack",
   "main": "src/index.js",
@@ -14,6 +14,9 @@
     ]
   },
   "repository": "git@github.com:drMimic/node-module-template.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "author": "drMimic",
   "license": "MIT",
   "devDependencies": {
